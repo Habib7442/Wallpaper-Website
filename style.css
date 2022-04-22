@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* home */
+
+.sports{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/sports.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: rgb(10, 151, 151);
+    position: absolute;
+}
+.nature{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: aquamarine;
+    position: absolute;
+    margin-top: 16%;
+}
+.movies{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/movies.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: rgb(223, 161, 80);
+    position: absolute;
+    margin-top: 32%;
+}
+.food{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/food.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: rgb(74, 236, 169);
+    position: absolute;
+    margin-top: 48%;
+}
+.fitness{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/fitness.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: rgb(206, 23, 182);
+    position: absolute;
+    margin-top: 64%;
+}
+.animal{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/animal.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: rgb(240, 243, 58);
+    position: absolute;
+    margin-top: 80%;
+}
+.actors{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/actors.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: rgb(229, 50, 104);
+    position: absolute;
+    margin-top: 96%;
+}
+.actress{
+    width: 100%;
+    height: 200px;
+    background-image: url(/Images/home/actress.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 200px ;
+    background-color: rgb(54, 194, 237);
+    position: absolute;
+    margin-top: 112%;
+}
+
+
+
+h2{
+    font-family: 'Beau Rivage', cursive;
+    color: rgb(45, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 50%;
+    font-size: 4rem;
+}
+
+.btn-outline-warning{
+    margin-left: 46%;
+    margin-top: 4%;
+}
+
+/* sports */
+
+#sports-cricket{
+    min-height: 100vh;
+    background: linear-gradient(to right, #ffb347, #ffcc33);
+}
+#sports-football{
+    min-height: 100vh;
+    background: linear-gradient(to right, #fdc830, #f37335);
+}
+
+/* nature */
+
+#nature{
+    background: linear-gradient(to right, #43c6ac, #f8ffae);
+}
+
+
+/* movies */
+
+#bollywood{
+    background: linear-gradient(to right, #093028, #237a57);
+}
+
+#hollywood{
+    background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+
+/* food */
+
+#food{
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+ /* fitness */
+#fitness{
+    scroll-behavior: smooth;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+/* animals */
+#animals{
+    scroll-behavior: smooth;
+    background: linear-gradient(to right, #373b44, #4286f4);
+}
+
+/* actors */
+
+#actors-bollywood{
+    background: linear-gradient(to right, #649173, #dbd5a4);
+}
+#actors-hollywood{
+    background: linear-gradient(to right, #e9d362, #333333);
+}
+
+/* actress */
+#actress-bollywood {
+    background: linear-gradient(to right, #3e5151, #decba4);
+}
+
+#actress-hollywood {
+    background: linear-gradient(to right, #3c3b3f, #605c3c);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(20, 176, 196);
+    color: white;
+    text-align: center;
+  }
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        min-height: 120vh;
+      /* background-image: url(/Images/background.jpg); */
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h2{
+        font-size: 2rem;
+        margin-top: 15%;
+    }
+
+    .btn-outline-warning{
+        margin-left: 40%;
+        margin-top: 8%;
+    }
+
+    .nature{
+        margin-top: 40%;
+    }
+    .movies{
+        margin-top: 80%;
+    }
+    .food{
+        margin-top: 120%;
+    }
+    .fitness{
+        margin-top: 160%;
+    }
+    .animal{
+        margin-top: 200%;
+    }
+    .actors{
+        margin-top: 240%;
+    }
+    .actress{
+        margin-top: 280%;
+        height: 150px;
+    }
+  }
